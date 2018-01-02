@@ -1,0 +1,45 @@
+
+header {
+    height: 140px;
+    width: 100%;
+    z-index: 991;
+}
+.Toolbar .logo {
+    float: left;
+    width: 140px;
+    margin: 10px 0 0 0;
+}
+.menu {
+    position: fixed;
+    right: 15%;
+    font-family: 'bebas_neuebold';
+    color: #3b5888;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 62px 0 0 0;
+    cursor: pointer;
+    z-index: 99;
+}
+.menu span {
+    position: relative;
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    background: #3b5888;
+    top: -7px;
+    margin: 0 0 0 15px;
+}
+.menu span:before,.menu span:after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    background: #3b5888;
+}
+.menu span:before {
+    top: -8px;
+}
+.menu span:after {
+    bottom: -8px;
+}

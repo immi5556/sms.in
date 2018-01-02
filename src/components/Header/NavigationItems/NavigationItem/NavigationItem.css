@@ -1,0 +1,10 @@
+.navigationItem a{
+    color: #fff;
+}
+.active {
+    color:#25365d !important;
+}
+.navigationItem a:hover,.navigationItem a:focus {
+    text-decoration: none;
+    color:#25365d !important;
+}

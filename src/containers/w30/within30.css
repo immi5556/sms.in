@@ -1,0 +1,32 @@
+.w30-section {
+    padding: 60px 0 0;
+}
+.w-content-section h3 {
+    color: #39425f;
+    font-family: 'bebas_neuebold';
+    line-height: 46px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.w-content-section h3 span {
+    color: #cb2027;
+    font-family: 'bebas_neue_regularregular';
+}
+.w-content-section p {
+    color: #4a4a4a;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.app-logo img {
+    max-height: 60px;
+}
+.service-view-section {
+    margin: 50px 0;
+}
+.services-view-screen {
+    margin: 60px 0 0;
+}
+.w-content-section .no-bold {
+    font-family: 'bebas_neue_regularregular';
+}

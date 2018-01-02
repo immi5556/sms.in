@@ -1,0 +1,24 @@
+.button {
+    border-radius: 25px;
+    padding: 0 30px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    min-width: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.button:hover,.button:focus {
+    color: #fff;
+    text-decoration: none;
+}
+.primary{
+    background: #25365d;
+}
+.secondary {
+    background: #ce2129;
+}

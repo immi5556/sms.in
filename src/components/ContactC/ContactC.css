@@ -1,0 +1,66 @@
+.contactC {
+    padding: 50px 0 0;
+    position: relative;
+}
+.contactAddress {
+    float: left;
+    width: 40%;
+}
+.contactAddress h3 {
+    color: #2a2b2b;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.contactAddress ul {
+    padding: 0;
+}
+.contactAddress li {
+    list-style: none;
+    color: #3d3e40;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 14px 0;
+    position: relative;
+    padding-left: 25px;
+}
+.contactAddress li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+}
+.contactForm {
+    float: right;
+    width: 55%;
+}
+.btnCover {
+    padding: 30px 0 0 5px;
+    clear: both;
+}
+.textAreaElement{
+    border: 1px solid #c0c2c6;
+    height: 140px;
+    border-radius:6px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #494949;
+    font-family: 'Open Sans', sans-serif;  
+    background: #fff;
+}
+.inputElement{
+    border: 1px solid #c0c2c6;
+    height: 40px;
+    border-radius:6px;
+    outline: none;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #494949;
+    font-family: 'Open Sans', sans-serif;  
+    background: #fff;
+}

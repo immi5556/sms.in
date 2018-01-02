@@ -1,0 +1,66 @@
+.slide {
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.sliderImg {
+    float: left;
+    width: 40%;
+}
+.slideContent {
+    float: right;
+    width: 50%;
+}
+.slideContent h2 {
+    color: #424242;
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+.slideContent h2 span {
+    color: #cb2027;
+    font-size: 52px;
+    padding: 0 15px 0 0;
+}
+.slideContent p {
+    color: #3b3b3b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.appButtons {
+    clear: both;
+    padding: 80px 0 0 0;
+}
+.appButtons a {
+    float: left;
+    width: 35%;
+    margin-right: 8px;
+}
+.banner .left.carousel-control,.banner .right.carousel-control {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    bottom: auto;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    opacity: 1;
+}
+.banner .left.carousel-control .glyphicon ,.banner .right.carousel-control .glyphicon  {
+    display: none;
+}
+.banner .left.carousel-control {
+    left: -60px;
+	border-right: 20px solid #38415e;
+}
+.banner .right.carousel-control {
+    right: -60px;
+	border-left: 20px solid #38415e;
+}
+	

@@ -1,0 +1,55 @@
+.productsC {
+    padding: 40px 0 0;
+    position: relative;
+}
+.left {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+.left:before, .right:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    height: 150px;
+    background: rgba(255,255,255,0.4);
+    z-index: 9;
+}
+.right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+.productsCRow1 {
+    clear: both;
+    position: relative;
+}
+.productsCRow1Content {
+    height: 918px;
+} 
+.ProductImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.productCont {
+    position: relative;
+    z-index: 99;
+}
+.productCont img {
+    height: 100px;
+}
+.productSecs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productBtn {
+    margin: 30px 0 0 0;
+    text-align: center;
+}

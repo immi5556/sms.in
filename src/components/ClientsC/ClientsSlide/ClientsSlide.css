@@ -1,0 +1,30 @@
+
+.slideshow {
+    position: relative;
+    width: 572px;
+    height: 576px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow .left.carousel-control,.slideshow .right.carousel-control {
+    display: none;
+}
+.slideshow .carousel {
+    position: initial;
+}
+.slideshow .carousel-indicators {
+    bottom: 160px;
+}
+.slideshow .carousel-indicators li,.slideshow .carousel-indicators li.active  {
+   background: none;
+    border: 2px solid #64707b;
+    width: 12px;
+    height: 12px;
+    margin: 0 3px !important;
+}
+.slideshow .carousel-indicators li.active {
+    background: none;
+    border-color: #fff;
+}

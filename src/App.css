@@ -1,0 +1,186 @@
+
+@font-face {
+  font-family: 'bebas_neuelight';
+  src: url('./components/fonts/bebasneue_light-webfont.woff2') format('woff2'),
+       url('./components/fonts/bebasneue_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neuebold';
+  src: url('./components/fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+       url('./components/fonts/bebasneue_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neuebook';
+  src: url('./components/fonts/bebasneue_book-webfont.woff2') format('woff2'),
+       url('./components/fonts/bebasneue_book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neue_regularregular';
+  src: url('./components/fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+       url('./components/fonts/bebasneue_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neuethin';
+  src: url('./components/fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+       url('./components/fonts/bebasneue_thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.d-block {
+  display: block;
+}
+.d-inline {
+  display: inline;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.clearfix:before,.clearfix:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.clearfix{
+  clear: both;
+}
+.rowF {
+  margin: 0 -5px;
+}
+.colLg4,.colLg12,.colLg3 {
+  float: left;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.colLg4 {
+  width: 33.333%;
+}
+.colLg3 {
+  width: 25%;
+}
+.colLg12 {
+  width: 100%;
+}
+.mTlg {
+  margin-top: 15px;
+}
+.mTmd {
+  margin-top: 10px;
+}
+.bagImg {
+  position: fixed;
+  background: #f1f5f8;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.active {
+  color: red;
+}
+.aboutC {
+  padding: 80px 0 0;
+}
+.heading-h2 {
+  color: #25365d;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'bebas_neuebold';
+}
+p {
+  color: #3b3b3b;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.btnSec {
+  padding: 20px 0 0;
+}
+.subscribe {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #25365d;
+  box-sizing: border-box;
+  background: #fff;
+}
+.subscribe .inputElement {
+  height: 38px;
+  border: none;
+  padding-right: 64px;
+  color: #25365d;
+  font-size: 14px;
+  font-weight: 600;
+}
+.subscribe button {
+  width: 60px;
+  position: absolute;
+  top: 0;
+  background: #25365d;
+  color: #fff;
+  border: none;
+  height: 38px;
+  right: 0;
+}
+.subscribe .fa {
+  transform: rotate(45deg);
+}
+.screen1Bg {
+  position: fixed;
+  height: 100%;
+  /* min-height: calc(140px + 6vw); */
+  width: 100%;
+  overflow: hidden;
+  background: #f1f5f8 ;
+  background-size: 100%;
+  -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+  clip-path: polygon(100% 0%,100% 100%,200% 200%,-72% calc(200% - 120%));
+  font-family: 'HaboroSerif-NorBoo';
+  font-weight: normal;
+  text-shadow: 0 0 4px #212220;
+  z-index: -1;
+}
+.screen2Bg {
+  position: fixed;
+    height: 100%;
+    /* min-height: calc(140px + 6vw); */
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    background-size: 100%;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+    clip-path: polygon(100% 50%,100% 100%,200% 200%,-9% calc(200% - 95%));
+    font-family: 'HaboroSerif-NorBoo';
+    font-weight: normal;
+    text-shadow: 0 0 4px #212220;
+    z-index: -1;
+}
+.screen3Bg {
+  position: fixed;
+  height: 100%;
+  /* min-height: calc(140px + 6vw); */
+  width: 100%;
+  overflow: hidden;
+  background: #f1f5f8;
+  background-size: 100%;
+  clip-path: url(//kilianvalkhof.com/wp-content/themes/kvsixteen/static/img/shapes.svg#header);
+  -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+  clip-path: polygon(100% 0%,100% 100%,200% 200%,38% calc(200% - 100%));
+  font-family: 'HaboroSerif-NorBoo';
+  font-weight: normal;
+  text-shadow: 0 0 4px #212220;
+  z-index: -1;
+}
