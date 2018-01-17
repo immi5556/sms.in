@@ -14,7 +14,7 @@ class ProductsC extends Component {
             overflow: 'hidden',
           };
         return (
-            <div className={"productsC clearfix"} id="products">
+            <div className={"productsC clearfix"} name="productsC" id="products">
             <div className="container">
                 <h2 className="heading-h2">Our products</h2>
             </div>

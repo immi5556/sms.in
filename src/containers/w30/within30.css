@@ -1,5 +1,6 @@
 .w30-section {
     padding: 60px 0 0;
+    position: relative;
 }
 .w-content-section h3 {
     color: #39425f;
@@ -29,4 +30,20 @@
 }
 .w-content-section .no-bold {
     font-family: 'bebas_neue_regularregular';
+}
+.website-view-section {
+    position: relative;
+}
+.triangle-up {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 49.5Vw solid transparent;
+    border-right: 49.5Vw solid transparent;
+    left: 0;
+    border-bottom: 403px solid #a2e1ed;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    top: 0;
 }

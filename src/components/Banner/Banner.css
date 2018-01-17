@@ -63,4 +63,12 @@ img {
     right: -60px;
 	border-left: 20px solid #38415e;
 }
-	
+.downScroll {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    cursor: pointer;
+}
+.downScroll a {
+    color: #25365d;
+}	

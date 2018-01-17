@@ -7,61 +7,7 @@ import Auxx from '../../../hoc/Auxx';
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 export default class NavigationItems extends Component {
-    constructor (props){
-        super(props);
-        this.scrollToTop = this.scrollToTop.bind(this);
-    }
-  
-    componentDidMount() {
-  
-      Events.scrollEvent.register('begin', function() {
-        console.log("begin", arguments);
-      });
-  
-      Events.scrollEvent.register('end', function() {
-        console.log("end", arguments);
-      });
-  
-    }
-    scrollToTop() {
-      scroll.scrollToTop();
-    }
-    scrollTo() {
-      scroller.scrollTo('scroll-to-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-      })
-    }
-    scrollToWithContainer() {
-  
-      let goToContainer = new Promise((resolve, reject) => {
-  
-        Events.scrollEvent.register('end', () => {
-          resolve();
-          Events.scrollEvent.remove('end');
-        });
-  
-        scroller.scrollTo('scroll-container', {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutQuart'
-        });
-  
-      });
-  
-      goToContainer.then(() =>  
-          scroller.scrollTo('scroll-container-second-element', {
-              duration: 800,
-              delay: 0,
-              smooth: 'easeInOutQuart',
-              containerId: 'scroll-container'
-          }));
-    }
-    componentWillUnmount() {
-      Events.scrollEvent.remove('begin');
-      Events.scrollEvent.remove('end');
-    }
+
     menuobj = [
         {url:'/', name:'Home',scroll:false},
         {url:'/about',name:'About Us',scroll:true},
@@ -75,6 +21,9 @@ export default class NavigationItems extends Component {
             <Auxx>
                 {this.menuobj.map((item,index) => {
                     return  <NavigationItem key={index} >
+                            if(item.scroll){
+                              
+                            }
                                 <NavLink onClick={this.props.clicked} to={item.url} exact>{item.name}</NavLink>
                             </NavigationItem>
                 })}
@@ -82,7 +31,12 @@ export default class NavigationItems extends Component {
         )
         return(
             <ul className="navigationItems">
-                {navs}
+                {/* {navs} */}
+                <li><NavLink to={'/'} exact onClick={this.props.clicked} activeClassName="custom-active-classname">Home</NavLink></li>
+                <li><Link to="aboutC" spy={true} smooth={true} duration={500} onClick={this.props.clicked}>About Us</Link></li>
+                <li><Link to="productsC" spy={true} smooth={true} duration={500} onClick={this.props.clicked}>Our Products</Link></li>
+                <li><Link to="clientsC" spy={true} smooth={true} duration={500} onClick={this.props.clicked}>Clients</Link></li>
+                <li><Link to="contactC" spy={true} smooth={true} duration={500} onClick={this.props.clicked}>Contact Us</Link></li>
             </ul>
         )
     }

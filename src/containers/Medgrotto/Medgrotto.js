@@ -44,12 +44,16 @@ export default class Medgrotto extends Component {
                         <p>For example, your medical history could be a critical factor when you are being treated in an emergent situation.
                              By making your lab records available, hundreds of dollars can be saved in redundant testing. 
                             MedGrotto gives you the ability to choose when and with whom you choose to share your health related information.</p>
-                        <div className="website-view-section text-right">
-                            <Button classE="primary" link={'/'}>Visit Website Now</Button>
-                            <img src={MedgrottoWebView} alt="MedgrottoWebView"/>
-                        </div>
                     </div>
                 </div>
+                <div className="website-view-section text-right">
+                    <div className="container">
+                        <Button classE="primary" link={'/'}>Visit Website Now</Button>
+                        <img src={MedgrottoWebView} alt="MedgrottoWebView"/>
+                    </div>
+                    <div className="triangle-up"></div>
+                </div>
+                <div className="triangle-right"></div>
             </div>
         )
     }

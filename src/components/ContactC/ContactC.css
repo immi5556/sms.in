@@ -64,3 +64,21 @@
     font-family: 'Open Sans', sans-serif;  
     background: #fff;
 }
+.note {
+    color: gray;
+    margin: 8px 0;
+  }
+  
+  input.active:valid,.textAreaElement:valid {
+    box-shadow: 0 0 5px 1px green;
+  }
+  
+  input.active:invalid,.textAreaElement.active:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }

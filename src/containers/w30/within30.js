@@ -39,11 +39,15 @@ export default class Within30App extends Component {
                             with businesses within 30 miles that have available slots within 30 minutes or at a later date/time.</p>
                         <p>You can find a wide range of services – from Physicians to Attorneys – all on the same app!</p>
                     </div>
-                    <div className="website-view-section text-right">
+                </div>
+                <div className="website-view-section text-right">
+                    <div className="container">
                         <Button classE="primary" link={'https://www.within30.com/'}>Visit Website Now</Button>
                         <img src={within30WebView} alt="within30WebView"/>
                     </div>
+                    <div className="triangle-up"></div>
                 </div>
+                <div className="triangle-right"></div>
             </div>
         )
     }

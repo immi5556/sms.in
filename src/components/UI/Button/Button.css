@@ -1,8 +1,8 @@
 .button {
     border-radius: 25px;
-    padding: 0 30px;
-    height: 36px;
-    line-height: 36px;
+    padding: 0 35px;
+    height: 40px;
+    line-height: 40px;
     cursor: pointer;
     text-decoration: none;
     color: #fff;
@@ -11,10 +11,13 @@
     min-width: 120px;
     margin-bottom: 50px;
     text-align: center;
+    border: none;
+    text-transform: capitalize;
 }
 .button:hover,.button:focus {
     color: #fff;
     text-decoration: none;
+    outline: none;
 }
 .primary{
     background: #25365d;

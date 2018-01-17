@@ -1,8 +1,11 @@
 import React,{Component} from 'react';
 import {React_Bootstrap_Carousel} from 'react-bootstrap-carousel';
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 import Slide1Content from './Slide1Content';
 import Slide2Content from './Slide2Content';
 import Slide from './SlideItem/SlideItem';
+import FontAwesome from '../font-awesome/fontAwesome';
 
 import '../Bootstrap/css/bootstrap.css';
 import '../Bootstrap/css/react-bootstrap-carousel.css';
@@ -30,6 +33,9 @@ class Banner extends Component {
     ];
     
     render (){
+        let sZ = {
+            fontSize:'22px'
+        }
        let Slides= (
             this.SliderArr.map((Item,index) => {
                 return <Slide url={Item.ImagUrl} cont={Item.content} pIcon={Item.playStoreIcon} aIcon={Item.appStoreIcon} key={index}/>
@@ -50,6 +56,7 @@ class Banner extends Component {
               >
               {Slides}
               </React_Bootstrap_Carousel>
+              <div className="downScroll"><a onClick={() => scroll.scrollToBottom()}><FontAwesome IconName={'fa-arrow-down'} fontSize={sZ}/></a></div>
             </div>
           </div>
         </div>

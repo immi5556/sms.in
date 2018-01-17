@@ -7,7 +7,7 @@ export class AboutC extends Component {
     render(){
         return(
             <Auxx>
-                <div className={"aboutC clearfix"}>
+                <div className={"aboutC clearfix"} name="aboutC">
                     <div className="container">
                         <h2 className="heading-h2">About Us</h2>
                         <p>Streamlined Medical Solutions (SMS) is a leading healthcare technology 

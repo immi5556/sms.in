@@ -33,7 +33,7 @@ class ClientsC extends Component {
             })
        )
         return(
-            <div className={"clientsC clearfix"}>
+            <div className={"clientsC clearfix"} name="clientsC">
                 <div className="container">
                     <h2 className="heading-h2">Our Clients</h2>
                     <div className="slideshow" style={leftStyle}>

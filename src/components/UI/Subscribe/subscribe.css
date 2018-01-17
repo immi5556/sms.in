@@ -1,0 +1,7 @@
+input.active:valid,.textAreaElement:valid {
+    box-shadow: 0 0 5px 1px green;
+  }
+  
+  input.active:invalid,.textAreaElement.active:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
