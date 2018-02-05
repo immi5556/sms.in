@@ -21,9 +21,6 @@ export default class NavigationItems extends Component {
             <Auxx>
                 {this.menuobj.map((item,index) => {
                     return  <NavigationItem key={index} >
-                            if(item.scroll){
-                              
-                            }
                                 <NavLink onClick={this.props.clicked} to={item.url} exact>{item.name}</NavLink>
                             </NavigationItem>
                 })}

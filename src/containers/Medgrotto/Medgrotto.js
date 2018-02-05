@@ -3,8 +3,8 @@ import Button from '../../components/UI/Button/Button';
 
 import Medlogo from '../../assets/medgrottoLogo.png';
 import MedAppScreens from '../../assets/medgrotto-app.jpg';
-import appStore from '../../assets/appStore.svg';
-import playStore from '../../assets/playStore.svg';
+import appStore from '../../assets/coming-appstoreicon.png';
+import playStore from '../../assets/coming-playstoreicon.png';
 import MedgrottoWebView from '../../assets/medgrotto-web-app.png';
 
 import './Medgrotto.css';

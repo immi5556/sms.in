@@ -10,7 +10,7 @@ const toolbar = (props) => (
         <header>
             <div className="container Toolbar">
                 <div className="logo">
-                    <img src={Logo} alt="Logo"/>
+                    <a href='/'><img src={Logo} alt="Logo"/></a>
                 </div>
                 <DrawerToggle clicked={props.closed}/>
             </div>

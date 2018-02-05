@@ -29,8 +29,8 @@ export default class Within30App extends Component {
                             <img src={w30Services} alt="services-view-screen"/>
                         </div>
                         <div className='row app-section-icons'>
-                            <a href='#'><img src={appStore} alt="app store"/></a>
-                            <a href='#'><img src={playStore} alt="play store"/></a>
+                            <a href='https://itunes.apple.com/us/app/within30-scheduling-made-easy/id1185255127?ls=1&mt=8'><img src={appStore} alt="app store"/></a>
+                            <a href='https://play.google.com/store/apps/details?id=com.sj.within30'><img src={playStore} alt="play store"/></a>
                         </div>
                     </div>
                     <div className="w-content-section clearfix text-center">

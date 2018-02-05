@@ -20,8 +20,8 @@
 .contactAddress li {
     list-style: none;
     color: #3d3e40;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 20px;
     margin: 14px 0;
     position: relative;
     padding-left: 25px;
@@ -79,6 +79,6 @@
 
   .error {
     color: red;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 5px;
   }

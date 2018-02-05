@@ -13,8 +13,9 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 34%;
+    top: 50%;
     height: 150px;
+    margin-top: -148px;
     background: rgba(255,255,255,0.4);
     z-index: 9;
 }

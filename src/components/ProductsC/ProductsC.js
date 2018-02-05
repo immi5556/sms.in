@@ -25,7 +25,7 @@ class ProductsC extends Component {
                         <div className="productCont">
                             <img src={Wlogo} alt="W30 Logo"/>
                             <div className={"productBtn"}>
-                                <Button link={'javascript:void(0)'} classE={"primary"}>Read More</Button>
+                                <Button link={'/within30'} classE={"primary"}>Read More</Button>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ class ProductsC extends Component {
                         <div className="productCont">
                             <img src={medgrottoLogo} alt="medgrotto Logo"/>
                             <div className="productBtn">
-                                <Button link={'javascript:void(0)'} classE={"secondary"}>Read More</Button>
+                                <Button link={'/medgrotto'} classE={"secondary"}>Read More</Button>
                             </div>
                         </div>
                     </div>

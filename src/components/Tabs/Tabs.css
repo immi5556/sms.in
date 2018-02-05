@@ -1,0 +1,64 @@
+.tabs-wrapper {
+
+}
+
+ul.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul.tabs-nav li {
+    display: table-cell;
+    margin: 0 10px;
+}
+
+ul.tabs-nav li a {
+    position: relative;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #ec7a5c;
+    border-bottom: 1px solid #fff;
+}
+ul.tabs-nav li a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1.5px;
+    bottom: 0;
+    transition: all 0.3s linear;
+    transform: rotateY(90deg);
+    background: #fff;
+}
+
+ul.tabs-nav li a span {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+ul.tabs-nav li.active a:before,ul.tabs-nav li a:hover:before {
+    transform: rotateY(0);
+    background:  #409caa;
+}
+
+.tabs-content {
+    padding: 20px 0 0;
+}
+
+.tabs-content div.tab-panel {
+    display: none;
+    visibility: hidden;
+}
+
+.tabs-content div.tab-panel.active {
+    display: block;
+    visibility: visible;
+}
