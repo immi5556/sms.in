@@ -8,6 +8,8 @@ import './ClientsC.css';
 
 import clientLogo1 from '../../assets/clients-1.png';
 import clientLogo2 from '../../assets/clients-2.png';
+import britLogo from '../../assets/brit.png';
+import candescenthealthLogo from '../../assets/candescenthealth.png';
 import clientSlideBg from '../../assets/clients-box.png';
 
 
@@ -18,6 +20,12 @@ class ClientsC extends Component {
         },
         {
             ImagUrl:clientLogo2,
+        },
+        {
+            ImagUrl:britLogo,
+        },
+        {
+            ImagUrl:candescenthealthLogo,
         }
     ];
     
