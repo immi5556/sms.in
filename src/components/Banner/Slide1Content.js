@@ -6,8 +6,7 @@ class Slide1Content extends Component {
         return (
             <Auxx>
                 <h2>An app, that can be <br/><span>Trusted</span>by Everyone</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <p>All you need to do is Browse and Schedule. It's that simple. </p>
             </Auxx>
         )
     }
